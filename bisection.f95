@@ -1,4 +1,5 @@
-Program Bissection
+!Root finding by Bisection Method
+Program Bisection
 
     ! defining variables types
     real :: a,b,tol,m
@@ -34,4 +35,7 @@ Program Bissection
     ! displaying result
     print*, "A root of f(x)=exp(-x^2)-cos(x) is: ", m
     
-end Program Bissection
+end Program Bisection
+
+!Output:
+!A root of f(x)=exp(-x^2)-cos(x) is: 1.44741249
